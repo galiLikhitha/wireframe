@@ -1,54 +1,9 @@
-@media only screen and (max-width: 900px) {
-    .header_section{
-        width: 800px;
-        padding:20px;
-        height: auto;
-        background-color:whitesmoke;
-        /* margin-top: 122px; */
-        font-family: "Microsoft JhengHei, arial";
-        font-weight: bold;
-        font-size: 28px;
-    }
-    .emailImage{
-        width: 220px;
-        height: 150px;
-    }
-    .userName{
-        font-size: 24px;
-    }
-    .login{
-        font-size: 14px;
-        font-style:italic ;
-    }
-    .account-details{
-        font-size: 18px;
-        color: #cc0000;
-        margin-bottom: 10px;
-    }
-    .login1{
-        font-size: 14px;
-        font-family: "Microsoft JhengHei, arial";
-    
-    }
-    .header-color{
-        background-color: lightgrey;
-    }
-    .customer_table{
-        margin-top: 10px;
-    }
-    input{
-        width: 250px;
-        height:40px;
-    }
-}
-
-
 .header_section{
-    width: 700px;
+    width: 800px;
     padding:20px;
     height: auto;
     background-color:whitesmoke;
-    /* margin-top: 122px; */
+    margin-top: 122px;
     font-family: "Microsoft JhengHei, arial";
     font-weight: bold;
     font-size: 28px;

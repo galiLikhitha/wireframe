@@ -26,3 +26,7 @@
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
   }
+  .mains{
+      color: burlywood;
+      font-size: 150px;
+  }

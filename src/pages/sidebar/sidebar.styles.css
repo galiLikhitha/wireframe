@@ -1,6 +1,37 @@
+/* .sidebar{
+    height: 100%;
+    position: absolute;
+    background-color: white;
+}
+.card{
+    background-color: rgb(204, 16, 16);
+    color: white;
+    padding: 10px 15px;
+    float: left;
+}
+.card1{
+    background-color: white;
+    float: right;
+    height:50px;
+    border: 1px solid rebeccapurple;
+
+}
+
+.menu_item{
+    height:55px;
+    font-size: 28px;
+    padding-left: 5px;
+    padding-top: 30px;
+    
+}
+.text_color{
+    color:red;
+}
+ */
+
  .sidebar{
      width: 250px;
-     height: auto;
+     height: 650px;
      background-color: #F2F2F2;
      font-family: "Microsoft JhengHei, arial";
  }

@@ -4,11 +4,30 @@ import Checkbox from '@material-ui/core/Checkbox';
 import CheckBoxOutlineBlankIcon from '@material-ui/icons/CheckBoxOutlineBlank'; 
 import CheckBoxIcon from '@material-ui/icons/CheckBox'; 
 import './dashboard.styles.css';
+import { Link } from 'react-router-dom';
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />; 
 const checkedIcon = <CheckBoxIcon fontSize="small" />; 
 
 const Dashboard = () => (
+    
+    
+    
     <div className='header_section'>
+        <div className='row'>
+        <div className='col-md-9'>
+        <div className='sidebar'>
+            <div className='card card-custom'>
+                <h6>Angular</h6>
+                <h1>i JavaScript</h1>
+            </div>
+            <Link to='/dashboard' className='text_color'>DASHBOARD</Link>
+            <hr />
+            <Link to='/about' className='text_color'>ABOUT</Link>
+            <hr />
+            <Link to='/team' className='text_color'>TEAM</Link>
+        </div>
+            </div>
+        <div className='col-md-9'>
         <div className='row'>
             <div className='col-md-2'>
                  {/* <span className='emailImage'><img src={emailImage} alt=''  /></span> */}
@@ -76,8 +95,11 @@ const Dashboard = () => (
                 </div>
                 
             </div>
-            <button type="button" class="btn btn-info">submit</button>
+           
         </div>
+         <button type="button" class="btn btn-info">submit</button>
+         </div>
+         </div>
        
     </div>
     
