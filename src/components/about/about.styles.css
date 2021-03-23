@@ -1,0 +1,55 @@
+
+@media only screen and (max-width: 700px) {
+    .about_section{
+        width: 688px;
+        padding:20px;
+        /* margin-left:20px; */
+        height: auto;
+        background-color: #F2F2F2;
+        /* padding:10px 10px; */
+        margin-top: 122px;
+        font-family: "Microsoft JhengHei, arial";
+        font-weight: bold;
+        font-size: 28px;
+    
+    }
+    .emailImage{
+        width: 220px;
+        height: 150px;
+    }
+    .paragraph{
+        padding-top: 18px;
+        font-size: 12px;
+    }
+    .card-body{
+        width: 160px;
+        height: 100px;
+       
+    }
+  }
+.about_section{
+    width: 688px;
+    padding:20px;
+    /* margin-left:20px; */
+    height: auto;
+    background-color: #F2F2F2;
+    /* padding:10px 10px; */
+    margin-top: 122px;
+    font-family: "Microsoft JhengHei, arial";
+    font-weight: bold;
+    font-size: 28px;
+
+}
+.emailImage{
+    width: 220px;
+    height: 150px;
+}
+.paragraph{
+    padding-top: 18px;
+    font-size: 12px;
+}
+.card-body{
+    width: 160px;
+    height: 100px;
+   
+}

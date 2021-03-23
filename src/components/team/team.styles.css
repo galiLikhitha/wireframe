@@ -1,0 +1,17 @@
+.team_page{
+    width: 688px;
+    padding:20px;
+    margin-left:20px;
+    height: auto;
+    background-color: #F2F2F2;
+    /* padding:10px 10px; */
+    margin-top: 122px;
+    font-family: "Microsoft JhengHei, arial";
+    font-weight: bold;
+    font-size: 28px;
+}
+.emailImage{
+    width: 220px;
+    height: 222px;
+
+}

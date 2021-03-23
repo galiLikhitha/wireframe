@@ -1,0 +1,28 @@
+.showPage{
+    opacity: 1;
+}
+.hidePage{
+    display: none;
+}
+.main_section{
+    width:100%;
+    height:auto;
+    display: inline-block ;
+    position: absolute;
+}
+.left {
+    float: left;
+    width: 30%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    float: right;
+    width: 70%; /* The width is 60%, by default */
+  }
+  
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 100%) {
+    .main_section, .left, .main {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
