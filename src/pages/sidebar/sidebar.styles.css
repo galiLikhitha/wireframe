@@ -57,3 +57,29 @@
      margin-bottom: 20px;
 
  }
+ .menu{
+     padding-left: 15px;;
+ }
+ @media only screen and (max-width: 500px) {
+    .sidebar{
+        width: 310px;
+        height: 200px;
+        background-color: #F2F2F2;
+        font-family: "Microsoft JhengHei, arial";
+    }
+    .sidebar a{
+        display: block;
+        font-family: "Microsoft JhengHei, arial";
+        font-weight: bold;
+        font-size: 12px;
+        color: #CC0000;
+    }
+    .card h6{
+        margin-bottom: 20px;
+    }
+    .ff{
+        display: flex;
+        flex-direction: row;
+        margin-right:10px;
+    }
+}

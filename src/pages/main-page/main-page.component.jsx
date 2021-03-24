@@ -11,15 +11,7 @@ class MainPage extends React.Component{
             pagesStatus : 'loggedout'
         }
     }
-    handleParentData = e =>{
-        this.setState({ pagesStatus : e});
-    };
-    displayPage (){
-        return this.pagesStatus ==="loggedout" ? "showPage" : "hidePage";
-    }
-    displayPage2 (){
-        return this.pagesStatus === "loggedin" ? "showPage" : "hidePage";
-    }
+
     render(){
         return(
             <React.Fragment>

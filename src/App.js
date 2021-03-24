@@ -13,15 +13,13 @@ const App = () =>{
     return(
       <Router>
           <Switch>
-          {/* <SignInPage/> */}
-          <Route exact component= {SignInPage} path='/' />
-          <Route component={MainPage} path='/mainpage'  />
-          <Route component={Team} path='/team' />
-          <Route component={Dashboard} path='/dashboard' />
-          <Route component={About} path='/about' />
-       
+            <Route exact component= {SignInPage} path='/' />
+            <Route component={MainPage} path='/mainpage'  />
+            <Route component={Team} path='/team' />
+            <Route component={Dashboard} path='/dashboard' />
+            <Route component={About} path='/about' />
         </Switch> 
-         </Router>   
+      </Router>   
     )
 }
 

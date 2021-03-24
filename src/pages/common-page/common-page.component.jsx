@@ -9,7 +9,7 @@ const CommonPage = () =>{
     <React.Fragment>
         
             <Switch>
-            <div className='menu'>
+            <div className='menu pl-0'>
                 <Route exact path='/dashboard' component={Dashboard} />
                 <Route  path='/about' component={About} />
                 <Route  path='/team' component={Team} />
